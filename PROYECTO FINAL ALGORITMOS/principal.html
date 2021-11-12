@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<tittle>Página principal</tittle>
+</head>
+<body>
+    <h2>Banco Internacional</h2>
+    <br>
+    <form>
+        <select name="moneda">
+            <option selected>Escoga el tipo de moneda que desea gestionar</option>
+            <option>Dolares</option>
+            <option>Quetzales</option>
+        </select>
+        <br>
+        <select name="proceso">
+            <option value= "0">Seleccione la acción que desea realizar</option>
+            <option value= "1">Consulta de saldo</option>
+            <option value= "2">Retiro</option>
+            <input type="button" value="Generar" onclick="proceso(this.form)">
+
+        </select>
+    </form>
+    <script>
+        var dolar= 1000
+        var quetzal=8000
+
+        function proceso(form){
+            switch (moneda) {
+                case Dolares:
+                    
+                    break;
+            
+                default:
+                    break;
+            }
+
+        }
+
+    </script>
+</body>
+</html>
